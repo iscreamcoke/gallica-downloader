@@ -137,23 +137,6 @@ Augmenter :
 
 ---
 
-## Principe technique
-
-Le script :
-
-1. récupère le manifest IIIF officiel
-2. télécharge chaque page en JPG haute résolution
-3. assemble le PDF sans perte
-4. supprime les fichiers temporaires
-
-Donc :
-
-✔ qualité identique au viewer Gallica  
-✔ pas de recompression  
-✔ pas de scraping fragile  
-
----
-
 ## Licence
 
 MIT License
