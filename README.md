@@ -4,15 +4,6 @@ Télécharge automatiquement **n’importe quel livre Gallica (BnF)** en **PDF h
 
 ---
 
-## Fonctionnalités
-
-✔ Téléchargement via IIIF officiel (qualité maximale native)  
-✔ PDF sans recompression (images originales)  
-✔ Téléchargement parallèle 
-✔ Accepte URL complète ou ARK  
-
----
-
 ## Installation
 
 ### 1. Python requis
