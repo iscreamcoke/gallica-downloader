@@ -1,10 +1,10 @@
-# 📚 Gallica → PDF Downloader
+# Gallica → PDF Downloader
 
 Télécharge automatiquement **n’importe quel livre Gallica (BnF)** en **PDF haute qualité**, à partir d’une URL ou d’un ARK.
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 ✔ Téléchargement via IIIF officiel (qualité maximale native)  
 ✔ PDF sans recompression (images originales)  
@@ -13,7 +13,7 @@ Télécharge automatiquement **n’importe quel livre Gallica (BnF)** en **PDF h
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1. Python requis
 Python ≥ 3.9
@@ -36,7 +36,7 @@ python3 -m pip install pillow
 
 ---
 
-## 🚀 Utilisation rapide
+## Utilisation
 
 ### Depuis une URL Gallica
 
@@ -58,7 +58,7 @@ bd6t542069393.pdf
 
 ---
 
-## ⚙️ Options
+## Options
 
 | Option | Description | Défaut |
 |-------|-------------|----------|
@@ -73,7 +73,7 @@ bd6t542069393.pdf
 
 ---
 
-## 💡 Exemples
+## Exemples
 
 ### Plus rapide (8 threads)
 
@@ -95,25 +95,7 @@ python3 gallica.py --ark bd6t542069393 --keep
 
 ---
 
-## 📁 Gestion des fichiers
-
-### Par défaut
-
-```
-✔ PDF conservé
-✘ dossier gallica_<ark>/ supprimé automatiquement
-```
-
-### Avec --keep
-
-```
-✔ PDF conservé
-✔ images conservées
-```
-
----
-
-## ⚡ Performance conseillée
+## Performance conseillée
 
 Valeurs stables :
 
@@ -132,7 +114,7 @@ Réseau très rapide :
 
 ---
 
-## ⚠️ Problèmes fréquents
+## Problèmes possibles
 
 ### 403 Forbidden
 Gallica bloque parfois les requêtes automatisées.
@@ -155,7 +137,7 @@ Augmenter :
 
 ---
 
-## 🧠 Principe technique
+## Principe technique
 
 Le script :
 
@@ -172,7 +154,7 @@ Donc :
 
 ---
 
-## 📜 Licence
+## Licence
 
 MIT License
 
