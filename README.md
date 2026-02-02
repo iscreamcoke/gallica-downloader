@@ -2,6 +2,15 @@
 
 Télécharge automatiquement **n’importe quel livre Gallica (BnF)** en **PDF haute qualité**, à partir d’une URL ou d’un ARK.
 
+Ce projet propose une version **plus robuste, plus rapide et plus fiable** que la majorité des scripts Gallica disponibles sur GitHub.
+
+- Utilise l’**API officielle IIIF** de Gallica (pas de scraping HTML)
+- Continue de fonctionner même si **l’interface Gallica change**
+- **Téléchargements parallèles**
+- **Reprise automatique** après interruption ou erreur réseau
+- Gestion des **erreurs 403 / 429 / 503** (backoff + retry)
+- **Connexion persistante (keep-alive)**
+
 ---
 
 ## Installation
